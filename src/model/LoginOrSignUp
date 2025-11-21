@@ -1,6 +1,18 @@
 public static LoginOrSignUp{
     //Find json that holds users
 
+    public static void switchToSignUpScreen(){
+        //Switch to signup screen
+    }
+
+    public static void switchToLoginScreen(){
+        //Switch to login screen
+    }
+
+    public static void loggedIn(){
+        //Switch to logged in screen
+    }
+
     public static User loginCheck(String username, String password){ //TODO
         //Search for username
         //If exists

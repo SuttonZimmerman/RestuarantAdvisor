@@ -12,7 +12,7 @@ public class Restaurant {
     private int numOfReviews;
     private double collectReviews;
     private ArrayList<Review> reviews;    //---------- To be implemented
-    //private Menu menu;                    // ---------- To be implemented
+    private ArrayList<MenuItem> menu;       //--------- To be implemented
 
     public Restaurant(String name, String city, String state, double rating) {
         this.name = name;
