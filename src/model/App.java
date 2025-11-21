@@ -10,6 +10,9 @@ public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        Button loginInBtn    = new Button("Login");
+        //Button SignUpBtn     = new Button("Login"); --- Show up if other button is pressed
+        
         Button btn = new Button("Click me!");
         btn.setOnAction(e -> System.out.println("Button clicked!"));
 

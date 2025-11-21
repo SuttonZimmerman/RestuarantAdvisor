@@ -39,7 +39,7 @@ public class Restaurant {
     public void setNumOfReviews(int numOfReviews) {this.numOfReviews = numOfReviews;}
 
     public void updateReviews(Review review) {        //---------- To be implemented
-        Review newReview = new Review(); 
+        Review newReview = new Review(); //Temp
         numOfReviews++;
         collectReviews += review.getRating();
         rating = collectReviews / numOfReviews;

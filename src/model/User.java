@@ -45,7 +45,7 @@ public class User {
     public String getPassword() {return Password;}
     public ArrayList<Restaurant> getFavoriteRestaurants() {return favoriteRestaurants;}
 
-    public void setuserID(int userID) {this.userID = userID; 
+    public void setuserID(int userID) {this.userID = userID; }
     public void setUsername(String username) {this.Username = username;}
     public void setName(String name) {this.Name = name;}
     public void setlName(String lName) {this.lName = lName;}
