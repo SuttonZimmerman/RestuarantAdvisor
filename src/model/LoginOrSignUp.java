@@ -1,0 +1,37 @@
+public static LoginOrSignUp{
+    //Find json that holds users
+
+    public static void switchToSignUpScreen(){
+        //Switch to signup screen
+    }
+
+    public static void switchToLoginScreen(){
+        //Switch to login screen
+    }
+
+    public static void loggedIn(){
+        //Switch to logged in screen
+    }
+
+    public static User loginCheck(String username, String password){ //TODO
+        //Search for username
+        //If exists
+            //Check password
+                //If correct 
+                    //Login
+                //Else
+                    //Fail Login
+        return null;
+    }
+
+    public static User signUpCheck(String username, String fName, String lName, String password, String email){ //TODO
+        //Search for username
+        //If Exists
+            //Username already exists
+        //Else
+            //Assign a Username, password, fName, lName, email
+            //Create new User 
+            //plug into Json
+        return login(username, password)
+    }
+}
